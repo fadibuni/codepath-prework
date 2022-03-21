@@ -71,7 +71,7 @@ Randomization works:
 
 3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words)
 
-    I am wondering how to develop bigger and more complex websites since the one we designed was very simple. I am looking forward to learning about the different possibilities and functionalities that can be achieved using html, CSS, and JavaScript. I want to know the different built-in functions in JavaScript and when and how to use them. I am also curious to learn about the html tags and how can they be used to design and organize the web page. I want to learn more about using CSS to put customize my html code and give it different styles, shapes, and colors!
+    I am wondering how to develop bigger and more complex websites since the one we designed was very simple. I am looking forward to learning about the different possibilities and functionalities that can be achieved using html, CSS, and JavaScript. I want to know the different built-in functions in JavaScript and when and how to use them. I am also curious to learn about the html tags and how can they be used to design and organize the web pages. I want to learn more about using CSS to customize my html code and give it different styles, shapes, and colors!
 
 4. If you had a few more hours to work on this project, what would you spend them doing (for example: refactoring certain functions, adding additional features, etc). Be specific. (recommended 100 - 300 words) 
     
