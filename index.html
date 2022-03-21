@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+
+    <title>Hello!</title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <!-- this is the start of content -->
+    <h1>
+      Light and Sound Memory Game
+    </h1>
+    <p>
+      Welcome to the game! 
+      Repeat back the pattern by pressing buttons.
+    </p>
+    <button id="startBtn" onclick="startGame()">Start</button>
+    <button id="stopBtn" class="hidden" onclick="stopGame()">End</button>
+    
+    <div id="gameButtonArea">
+      <button id="button1" onclick="guess(1)" onmousedown="startTone(1)" onmouseup="stopTone(1)">
+        <img src="https://cdn.glitch.global/21957633-bd6d-4d47-81c5-100e5c299ed9/Copy1.png?v=1647629521409" width="250" height="250" class="hidden">
+      </button>
+      <button id="button2" onclick="guess(2)" onmousedown="startTone(2)" onmouseup="stopTone(2)">
+        <img src="https://cdn.glitch.global/21957633-bd6d-4d47-81c5-100e5c299ed9/Copy2.png?v=1647629528799" width="250" height="250" class="hidden">
+      </button>
+      <button id="button3" onclick="guess(3)" onmousedown="startTone(3)" onmouseup="stopTone(3)">
+        <img src="https://cdn.glitch.global/21957633-bd6d-4d47-81c5-100e5c299ed9/Copy3.png?v=1647629534702" width="250" height="250" class="hidden">
+      </button>
+      <button id="button4" onclick="guess(4)" onmousedown="startTone(4)" onmouseup="stopTone(4)">
+        <img src="https://cdn.glitch.global/21957633-bd6d-4d47-81c5-100e5c299ed9/Copy4.png?v=1647629541340" width="250" height="250" class="hidden">
+      </button>
+      <button id="button5" onclick="guess(5)" onmousedown="startTone(5)" onmouseup="stopTone(5)">
+        <img src="https://cdn.glitch.global/21957633-bd6d-4d47-81c5-100e5c299ed9/Copy5.png?v=1647629547380" width="250" height="250" class="hidden">
+      </button>
+      <button id="button6" onclick="guess(6)" onmousedown="startTone(6)" onmouseup="stopTone(6)">
+        <img src="https://cdn.glitch.global/21957633-bd6d-4d47-81c5-100e5c299ed9/Copy6.png?v=1647629550739" width="250" height="250" class="hidden">
+      </button>
+      
+      
+    </div>
+    
+  </body>
+</html>
